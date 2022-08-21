@@ -41,7 +41,7 @@ module.exports = (sequelize, DataTypes) => {
       primaryKey: true
     },
     name: {
-      type: DataTypes.STRING(),
+      type: DataTypes.STRING,
       allowNull: false,
       validate: {
         notNull: {msg: 'cannot be null'}
@@ -60,7 +60,7 @@ module.exports = (sequelize, DataTypes) => {
       }
     },
     password: {
-      type: DataTypes.STRING(20),
+      type: DataTypes.STRING(),
       allowNull: false,
       validate: {
         len: {
