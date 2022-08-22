@@ -6,5 +6,5 @@ Ada beberapa fitur yang tersedia di aplikasi website ini, yaitu:
 2. Login User,
 3. Product --> get Product, get Product by Id, update product, add product, delete product,
 4. Wishlist,
-5. Cart
+5. Cart,
 Di aplikasi ini user bisa menambahkan wishlist dan memasukan product ke cart.
